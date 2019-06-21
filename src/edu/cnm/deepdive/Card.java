@@ -20,7 +20,7 @@ public class Card implements Comparable<Card> {
 
   @Override
   public String toString() {
-    return String.format("%s%s (%s)", rank.abbreviation(), suit.abbreviation(), suit.getColor());
+    return String.format("%s%s", rank.abbreviation(), suit.abbreviation(), suit.getColor());
   }
 
   @Override
